@@ -1,6 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router"
 import RootLayout from "./Layout/RootLayout"
 import Home from "./Pages/Home"
+import Men from "./Pages/Men"
 
 
 function App() {
@@ -12,6 +13,10 @@ function App() {
         {
           path:'/',
           element:<Home/>
+        },
+        {
+          path:'men',
+          element: <Men/>
         }
       ]
       

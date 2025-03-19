@@ -10,11 +10,11 @@ const Card : React.FC = () => {
             <img className='object-cover ' src={shoe2} alt="" />
             <div className='absolute w-full bottom-0 flex justify-center font-bold' ><h3>Jordan Air 3</h3></div>
         </div>
-        <div className='m-1'>
-             <p className='font-bold'>Rs 5000</p>
+        <div className='m-1 flex justify-around'>
+             <p className='font-bold'>Rs 5000</p> <p className='text-gray-400'>Nike</p>
         </div>
         <div>
-            <button className=' bg-red-600 p-1 rounded-xl text-white font-bold w-full flex items-center justify-around '>Add to Cart <FaCartArrowDown />
+            <button className=' bg-red-500 p-1 rounded-xl text-white font-bold w-full flex items-center justify-around hover:opacity-80 '>Add to Cart <FaCartArrowDown />
             </button>
         </div>
 
